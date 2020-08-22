@@ -5,39 +5,38 @@
     font-size:30px;
     animation-name: head;
     animation-duration:16s;
+    animation-timing-function: linear;
     animation-iteration-count: infinite;
-   
     z-index:0;
 
 }
 
 
-    @keyframes head {
-        0%  { transform: translateX(0px); }
-        5%  { transform: translateX(10px); }
-        14%  { transform: translateX(30px); }
-        15%  { transform: translateX(690px); }
-        22%  {  transform: translateX(0px); }
-        33%  { content:"I'm a Python Developer"; transform: translateX(10px); }
-        39%  { transform: translateX(30px); }
-        43% { transform:translateX(690px);}
-        50%  {  transform: translateX(0px); }
-        56%  { content:"I'm a Competitive Programmar"; transform: translateX(10px);    }
-        60%  { transform: translateX(13px); }
-        64%  { transform: translateX(30px); }
-        70%  { transform: translateX(690px); }
-        73%  {  transform: translateX(0px); }
-        80%  { content:"I'm a National Badminton Player";  transform: translateX(10px); }
-        85%  { transform: translateX(20px); }
-        89%  { transform: translateX(30px); }
-        91%  {transform:translateX(690px); }
-        99%  {  transform: translateX(0px); }
-        100% { transform:translateX(0px); }
+@keyframes head {
+  0%  { transform: translateX(0px); }
+  5%  { transform: translateX(10px); }
+  14%  { transform: translateX(30px); }
+  15%  { transform: translateX(900px); }
+  22%  {  transform: translateX(0px); }
+  33%  { content:"I'm a Python Developer"; transform: translateX(10px); }
+  39%  { transform: translateX(30px); }
+  43% { transform:translateX(900px);}
+  50%  {  transform: translateX(0px); }
+  56%  { content:"I'm a Competitive Programmar"; transform: translateX(10px);    }
+  60%  { transform: translateX(13px); }
+  64%  { transform: translateX(30px); }
+  70%  { transform: translateX(900px); }
+  73%  {  transform: translateX(0px); }
+  80%  { content:"I'm a National Badminton Player";  transform: translateX(10px); }
+  85%  { transform: translateX(20px); }
+  89%  { transform: translateX(30px); }
+  91%  {transform:translateX(900px); }
+  99%  {  transform: translateX(0px); }
+  100% { transform:translateX(0px); }
 
 
-    
-    }
 
+}
 
 #name::after{
  content: "";
