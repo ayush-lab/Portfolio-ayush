@@ -81,6 +81,7 @@ body{
     flex-grow: 1;
 
     background:orange;
+    /* background:linear-gradient(#ee9ca7 , #ffdde1); */
     /* background:#e8e8e8; */
 }
 
@@ -230,10 +231,12 @@ body{
         display:none;
     }
 
-    .skill-container{
+    .skill-container, .projects{
         flex-direction: column;
         align-items:center;
     }
+
+    
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */

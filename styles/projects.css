@@ -1,0 +1,164 @@
+.project-section{
+    background:linear-gradient(#a1c4fd, #c2e9fb);
+    padding-bottom:150px;
+}
+
+.projects{
+
+  display:flex;
+  justify-content: space-evenly;
+  margin-top:40px;
+}
+
+.flip-card {
+    
+    background-image: linear-gradient(#cc2b5e,#753a88);
+    width: 280px;
+    height: 300px;
+    perspective: 1000px;
+    display:inline-block;
+    margin-bottom:30px;
+    border-radius:20px;
+    
+  }
+  .sub-heading{
+      color:rgb(150, 71, 150)3, 117, 173);
+  }
+
+  .upper-section{
+      background:white;
+      border-radius:20px 20px 0 0;
+  }
+  .upper-section >img{
+        
+        margin-top:30px;
+        width:120px;
+        height: 120px;
+    }
+
+.hope{
+    width:280px;
+    height:280px;
+    object-fit:cover;
+}
+
+ .bottom-section{
+ 
+    color:white;
+ }
+
+ .bottom-section >.heading{
+     font-weight:bolder;
+     margin-top:10px;
+ }
+
+  .flip-card-inner {
+    
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.4s ease-out;
+    transform-style: preserve-3d;
+    padding-left:0;
+    
+    
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+   
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding-left:0;
+    padding-bottom:40%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+
+  #heading_card{
+    text-align:center;
+    text-transform: uppercase;
+    font-size:40px;
+    font-weight:bold;
+    height:60px;
+    padding-top:20px;
+    
+    
+
+  }
+
+  
+  .flip-card-back {
+    background-image: linear-gradient(#614385,#516395);
+    color: white;
+    transform: rotateY(180deg);
+    border-radius:20px;
+  
+}
+
+.flip-card-back >img{
+    width:150px;
+    height:150px;
+}
+
+.flip-card-back >.git-link{
+    margin:20px 0;
+    color:rgb(247, 228, 231);
+    font-weight:bolder;
+    position:relative;
+    text-decoration: none;
+}
+.project-link{
+    position:relative;
+    color:white;
+    font-weight:bolder;
+    text-decoration: none;
+}
+.project-link a ,.git-link a{
+    text-decoration: none;
+    color:white;
+}
+
+.project-link:after ,.git-link:after{
+    content: "";
+    display:inline-block;
+    height:3px;
+    width:70%;
+    position: absolute;
+    top: 25px;
+    left:40px;
+    background:linear-gradient(#a1c4fd, #c2e9fb);
+
+   
+}
+
+.git-link:after{
+    background:white;
+}
+
+.project-link:after{
+    animation-name:project;
+    animation-duration:7s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    transition: transform 0.25s linear;
+}
+
+@keyframes project{
+    0% {transform: scaleX(1);}
+    15%{ transform: scaleX(0.7);}
+    30% { transform: scaleX(0.4);}
+    45% { transform: scaleX(0.1);}
+    60% { transform: scaleX(0.4);}
+    75% { transform: scaleX(0.7);}
+    90% { transform: scaleX(0.9);}
+    
+    100%{ transform: scaleX(1);}
+
+}
+
