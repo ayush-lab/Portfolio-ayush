@@ -101,5 +101,5 @@
 
 .social-media :nth-child(n):hover ,.social-media-footer :nth-child(n):hover{
     transform: rotate(-30deg);
-    transition: transform  0.3s;
+    transition: transform  0.3s ease-in-out;
 }

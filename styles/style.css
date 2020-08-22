@@ -2,7 +2,7 @@ html {
     scroll-behavior: smooth;
   }
 
-  
+
 *{
     box-sizing:border-box;
     margin:0px;
@@ -215,9 +215,9 @@ nav ul li{
     color:white;
     transform: scale(1);
     transition: transform ease-in-out 0.3s;
-    z-index:1;
+  
 }
-
+https://ayush-lab.github.io/Portfolio-ayush/template
 .arrow-down{
     
     align-self:center;
