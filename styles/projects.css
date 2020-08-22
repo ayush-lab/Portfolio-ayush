@@ -1,6 +1,6 @@
 .project-section{
     background:linear-gradient(#a1c4fd, #c2e9fb);
-    padding-bottom:150px;
+    padding-bottom:50px;
 }
 
 .projects{
@@ -72,7 +72,7 @@
     width: 100%;
     height: 100%;
     padding-left:0;
-    padding-bottom:40%;
+    
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
   }

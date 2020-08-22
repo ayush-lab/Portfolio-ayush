@@ -1,4 +1,6 @@
-
+html {
+    scroll-behavior: smooth;
+  }
 *{
     box-sizing:border-box;
     margin:0px;
@@ -35,11 +37,13 @@ display:flex;
 
 nav ul li{
     flex-wrap:wrap;
+    text-decoration:none;
 }
 
 
 .navbar-container-lists >li> .fa{
     color:rgba(255, 255, 0, 0.753);
+
 }
 
 .logo{
@@ -57,6 +61,7 @@ nav ul li{
     margin-right:10px;
     padding:6px;
     text-align: center;
+
 
 }
 
@@ -229,6 +234,7 @@ nav ul li{
     color:black;
     transform: rotateX(180deg);
     transition: all 0.3s ease;
+    text-decoration: none;
 
   }
 
@@ -269,6 +275,12 @@ nav ul li{
     .aboutme > h3::before{
         font-size:30px;
         align-items:center;
+    }
+    .social-media-footer:nth-child(n){
+
+        font-size:30px;
+        height: 50px;
+     
     }
 }
 
