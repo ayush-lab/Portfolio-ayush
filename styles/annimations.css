@@ -1,13 +1,13 @@
-.aboutme > h3::after{
+.aboutme ::before{
     color:white;
     content: "I'm a Web Developer!";
     display: inline-block;
     font-size:36px;
-    animation-name: head;
+    /* animation-name: head;
     animation-duration:16s;
     animation-timing-function: linear;
-    animation-iteration-count: infinite;
-
+    animation-iteration-count: infinite; */
+   
     z-index:0;
 
 }
