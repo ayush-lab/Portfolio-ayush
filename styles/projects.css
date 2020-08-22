@@ -159,3 +159,37 @@
     align-items:center;
     background: rgba(128, 128, 128, 0.568);
 }
+
+@media only screen and (max-width: 600px) {
+
+  #heading_card{
+    font-size:20px;
+    height:30px;
+
+  }
+
+
+.flip-card {
+    
+    background-image: linear-gradient(#cc2b5e,#753a88);
+    width: 280px;
+    height: 240px;
+  }
+
+  .upper-section >img{
+        
+        margin-top:30px;
+        width:70px;
+        height: 70px;
+    }
+
+ .bottom-section >.heading{
+     font-weight:bolder;
+     margin-top:10px;
+     font-size:15px;
+ }
+
+  .sub-heading{
+      font-size:10px;
+  }
+}

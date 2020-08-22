@@ -8,8 +8,9 @@
 
     margin-top:30px;
     margin-left:20px;
+    margin-right:10px;
     max-width:860px;
-    margin-bottom:20px;
+    margin-bottom:80px;
 
 }
 .aboutme-content h1{
@@ -61,12 +62,7 @@
 .skill-container{
     
     display:flex;
-    justify-content: space-evenly;
-    margin-left:0px;
-    
-    padding-right:10px;
-    
-
+    justify-content: space-around;
     z-index:-100;
 }
 
@@ -131,11 +127,6 @@
     
 }
 
-.work-container{
-   
-}
-
-
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -147,19 +138,82 @@
         font-size:14px;
     
     }
+    .aboutme-content{
+        margin-bottom:20px;
+    }
 
-.about-pictures >img{
+    .about-pictures >img{
+
+        width:100px;
+        height:100px;
+       
+        
+        }
+
+
+        .tech-skills{
+            font-size:20px;  
+        }
+
+
+        .skill-container{
     
-    object-fit: cover;
-    width:100px;
-    height:100px;
-    border-radius:50%;
-    border: solid 3px orange;
-    margin-bottom:30px;
-   
-     
-}
-   
+            display:flex;
+            justify-content: space-around;
+            z-index:-100;
+        }
+       
+    .skill-container >.css-html{
+        margin-top:0px;
+
+        margin-bottom:20px;
+        padding:10px;
+        margin-right:0px;
+
+
+    }
+        .css-heading{
+
+            padding-top:1px;
+  
+            padding-bottom:10px;
+            text-transform: uppercase;
+        
+            border-radius:10px;
+            font-weight:bolder;
+            position:relative;
+
+        }
+        .css-heading:after{
+         
+            top: 30px;
+           
+        }
+
+
+        .css-content{
+            width:250px;
+            font-size:13px;
+            
+        }
+
+        .css-image >img{
+            width:100px;
+            height:100px;
+            
+            
+        }
+
+        .work-skills{
+
+            font-size:16px;
+            font-weight:bold;
+            height:30px;
+            padding-top:20px;
+            margin-bottom:30px;
+            
+        }
+        
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
