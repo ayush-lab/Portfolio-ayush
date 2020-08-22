@@ -101,10 +101,7 @@ body{
     align-self:center;
     flex-grow:0.6;
     position:relative;
-
-    
- 
-    
+   
 }
 
 #name{
@@ -173,27 +170,26 @@ body{
 
 
 .arrow-down{
-    background:orange;
+    
+    align-self:center;
 }
 
 .arrow {
    
     font-size:10px;
-    text-align:center;
-    margin-top:-50px;
   }
 
-
+  
   .ar{
     /* rgb(85, 85, 129); */
     /* color:rgba(28, 155, 117, 0.962); */
+    z-index:100;
     color:black;
     transform: rotateX(180deg);
     transition: all 0.3s ease;
 
-    
-
   }
+
   .ar:hover{
       color:rgba(0, 0, 0, 0.733);
       text-decoration:none;
@@ -216,7 +212,7 @@ body{
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-   
+
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -227,7 +223,10 @@ body{
     .social-media{
         display:none;
     }
-    .about-pictures>img {
+    /* .about-pictures>img {
+       
+    } */
+    .logo{
         display:none;
     }
 
@@ -235,15 +234,18 @@ body{
         flex-direction: column;
         align-items:center;
     }
-
+    
+    .navbar-container{
+        justify-content:center;
+    }
     
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+    
     .arrow-down{display:none;}
 }
-
 
     ::-webkit-scrollbar {
         width: 12px;

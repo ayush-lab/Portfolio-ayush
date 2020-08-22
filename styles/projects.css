@@ -21,10 +21,7 @@
     border-radius:20px;
     
   }
-  .sub-heading{
-      color:rgb(150, 71, 150)3, 117, 173);
-  }
-
+ 
   .upper-section{
       background:white;
       border-radius:20px 20px 0 0;
@@ -105,6 +102,10 @@
     width:150px;
     height:150px;
 }
+.git-link:hover, .project-link:hover{
+    transform: translateY(-10px);
+    transition: transform ease 0.2s;
+}
 
 .flip-card-back >.git-link{
     margin:20px 0;
@@ -149,16 +150,12 @@
     transition: transform 0.25s linear;
 }
 
-@keyframes project{
-    0% {transform: scaleX(1);}
-    15%{ transform: scaleX(0.7);}
-    30% { transform: scaleX(0.4);}
-    45% { transform: scaleX(0.1);}
-    60% { transform: scaleX(0.4);}
-    75% { transform: scaleX(0.7);}
-    90% { transform: scaleX(0.9);}
-    
-    100%{ transform: scaleX(1);}
 
+
+.footer{
+    display:flex;
+    height:50px;
+    justify-content: center;
+    align-items:center;
+    background: rgba(128, 128, 128, 0.568);
 }
-

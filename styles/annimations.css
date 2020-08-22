@@ -73,6 +73,21 @@
 
 
 
+@keyframes project{
+  0% {transform: scaleX(1);}
+  15%{ transform: scaleX(0.7);}
+  30% { transform: scaleX(0.4);}
+  45% { transform: scaleX(0.1);}
+  60% { transform: scaleX(0.4);}
+  75% { transform: scaleX(0.7);}
+  90% { transform: scaleX(0.9);}
+  
+  100%{ transform: scaleX(1);}
+
+}
+
+
+
 @keyframes bounce {
     0%, 20%, 50%, 80%, 100% {
       transform: translateY(0);
