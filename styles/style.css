@@ -194,7 +194,6 @@ nav ul li{
 }
 .connect-heading{
     text-align:center;
-    
     padding-top:10px;
     color:white;
     font-weight:bolder;
@@ -296,6 +295,8 @@ nav ul li{
     .navbar-container-lists >li> .fa{
         display:none;
     }
+
+    
     
 }
 
