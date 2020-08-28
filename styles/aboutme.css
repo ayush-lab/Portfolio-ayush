@@ -213,31 +213,36 @@
             margin-bottom:30px;
             
         }
+
+
+    .aboutme ::before{
+        font-size:18px !important;
+    }
         
 }
 
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (min-width:601px) and (max-width: 1000px) {
 
-    .aboutme-content h1{
+        .aboutme-content h1{
 
-        font-size:25px;
-    }
-    .aboutme-content p{
-        font-size:17px;
-    
-    }
-    .aboutme-content{
-        margin-bottom:20px;
-    }
-
-    .about-pictures >img{
-
-        width:140px;
-        height:140px;
-       
+            font-size:25px;
+        }
+        .aboutme-content p{
+            font-size:17px;
         
         }
+        .aboutme-content{
+            margin-bottom:20px;
+        }
+
+        .about-pictures >img{
+
+            width:140px;
+            height:140px;
+        
+            
+            }
 
 
         .tech-skills{
@@ -253,15 +258,15 @@
             z-index:-100;
         }
        
-    .skill-container >.css-html{
-        margin-top:0px;
+        .skill-container >.css-html{
+            margin-top:0px;
 
-        margin-bottom:20px;
-        padding:10px;
-        margin-right:0px;
+            margin-bottom:20px;
+            padding:10px;
+            margin-right:0px;
 
 
-    }
+        }
         .css-heading{
 
             padding-top:1px;
@@ -304,9 +309,9 @@
             
         }
 
-    .aboutme ::before{
-        font-size:35px !important;
-    }
+        .aboutme ::before{
+            font-size:35px !important;
+        }
 
 
   
