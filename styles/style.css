@@ -350,14 +350,17 @@ nav ul li{
 
     .aboutme ::before{
         color:white;
-        content: "I'm a Web Developer!";
-        display: inline-block;
-        font-size:30px;
-        animation-name: head;
-        animation-duration:16s;
-        animation-timing-function: linear;
-        animation-iteration-count: infinite;
+        content: "I'm a Web Developer!"  !important;
+        display: inline-block !important;
+        font-size:30px !important;
+        animation-name: head !important;
+        animation-duration:16s !important;
+        animation-timing-function: linear !important ;
+        animation-iteration-count: infinite !important ;
         z-index:0;
+        white-space:nowrap;
+        border-right: 0px solid black !important;
+        width:100% !important;
     
     }
 }
