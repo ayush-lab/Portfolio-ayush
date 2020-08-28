@@ -7,7 +7,7 @@
 .aboutme-content{
 
     margin-top:30px;
-    margin-left:20px;
+    margin-left:30px;
     margin-right:10px;
     max-width:860px;
     margin-bottom:80px;
@@ -32,8 +32,8 @@
 .about-pictures >img{
     
     object-fit: cover;
-    width:300px;
-    height:300px;
+    width:250px;
+    height:250px;
     border-radius:50%;
     border: solid 3px orange;
     margin-bottom:50px;
@@ -77,7 +77,7 @@
     border-radius:10px;
     box-shadow: -2px -2px 5px rgba(245, 244, 244, 0.274),
         1px 1px 3px rgba(0, 0, 0, 0.541);
-    
+
 
 }
 .css-heading{
@@ -105,7 +105,7 @@
 
 
 .css-content{
-    width:250px;
+    width:240px;
     text-align:center;
 }
 
@@ -216,3 +216,98 @@
         
 }
 
+
+@media only screen and (max-width: 1000px) {
+
+    .aboutme-content h1{
+
+        font-size:25px;
+    }
+    .aboutme-content p{
+        font-size:17px;
+    
+    }
+    .aboutme-content{
+        margin-bottom:20px;
+    }
+
+    .about-pictures >img{
+
+        width:140px;
+        height:140px;
+       
+        
+        }
+
+
+        .tech-skills{
+            font-size:30px;  
+            margin-bottom: 20px;
+        }
+
+
+        .skill-container{
+    
+            display:flex;
+            justify-content: space-between;
+            z-index:-100;
+        }
+       
+    .skill-container >.css-html{
+        margin-top:0px;
+
+        margin-bottom:20px;
+        padding:10px;
+        margin-right:0px;
+
+
+    }
+        .css-heading{
+
+            padding-top:1px;
+  
+            padding-bottom:10px;
+            text-transform: uppercase;
+            font-size:15px;
+            border-radius:10px;
+            font-weight:bolder;
+            position:relative;
+
+        }
+        .css-heading:after{
+         
+            top: 30px;
+           
+        }
+
+
+        .css-content{
+            width:350px;
+            font-size:13px;
+            
+        }
+
+        .css-image >img{
+            width:100px;
+            height:100px;
+            
+            
+        }
+
+        .work-skills{
+
+            font-size:16px;
+            font-weight:bold;
+            height:30px;
+            padding-top:20px;
+            margin-bottom:30px;
+            
+        }
+
+    .aboutme ::before{
+        font-size:35px !important;
+    }
+
+
+  
+}
